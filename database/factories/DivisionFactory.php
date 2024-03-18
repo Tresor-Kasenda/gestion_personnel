@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Database\Factories;
 
 use App\Models\Direction;
@@ -22,7 +24,7 @@ class DivisionFactory extends Factory
             'direction_id' => Direction::factory(),
             'priority' => fake()->postcode,
             'abbreviation' => fake()->postcode,
-            'designation' => fake()->text
+            'designation' => fake()->text,
         ];
     }
 }

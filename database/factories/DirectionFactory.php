@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
@@ -19,7 +21,7 @@ class DirectionFactory extends Factory
         return [
             'priority' => fake()->postcode,
             'abbreviation' => fake()->postcode,
-            'designation' => fake()->text
+            'designation' => fake()->text,
         ];
     }
 }

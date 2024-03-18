@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Database\Seeders;
 
 use App\Models\Direction;
@@ -18,18 +20,18 @@ class DivisionSeeder extends Seeder
                 [
                     'priority' => '',
                     'abbreviation' => '',
-                    'description' => ''
+                    'description' => '',
                 ],
                 [
                     'priority' => '',
                     'abbreviation' => '',
-                    'description' => ''
+                    'description' => '',
                 ],
                 [
                     'priority' => '',
                     'abbreviation' => '',
-                    'description' => ''
-                ]
+                    'description' => '',
+                ],
             ])
             ->for(Direction::factory())
             ->create();

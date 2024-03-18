@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Database\Factories;
 
 use App\Models\Position;
@@ -19,7 +21,7 @@ class PositionFactory extends Factory
     {
         return [
             'priority' => fake()->postcode,
-            'designation' => fake()->text
+            'designation' => fake()->text,
         ];
     }
 }

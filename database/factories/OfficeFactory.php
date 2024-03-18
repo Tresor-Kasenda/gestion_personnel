@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Database\Factories;
 
 use App\Models\Division;
@@ -22,7 +24,7 @@ class OfficeFactory extends Factory
             'division_id' => Division::factory(),
             'priority' => fake()->postcode,
             'abbreviation' => fake()->postcode,
-            'designation' => fake()->text
+            'designation' => fake()->text,
         ];
     }
 }

@@ -1,9 +1,10 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Database\Seeders;
 
 use App\Models\Direction;
-use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
 class DirectionSeeder extends Seeder
@@ -18,18 +19,18 @@ class DirectionSeeder extends Seeder
                 [
                     'priority' => '',
                     'abbreviation' => '',
-                    'description' => ''
+                    'description' => '',
                 ],
                 [
                     'priority' => '',
                     'abbreviation' => '',
-                    'description' => ''
+                    'description' => '',
                 ],
                 [
                     'priority' => '',
                     'abbreviation' => '',
-                    'description' => ''
-                ]
+                    'description' => '',
+                ],
             ])
             ->create();
     }
